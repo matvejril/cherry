@@ -1,0 +1,110 @@
+.content {
+    padding-left: 13px;
+    padding-right: 20px;
+    flex: 1 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    li, p {
+        color: #585c69;
+    }
+    .post {
+        margin-bottom: 20px;
+        h3 {
+            font-size: 25px;
+            font-weight: bolder;
+            margin: 0 0 15px 0;
+            line-height: 0.8;
+            color: #aab0bb;
+            &:first-letter {
+                color: #a74858;
+            }
+        }
+        h4 {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 14px 0;
+            color: #1D232C;
+        }
+        h5 {
+            font-weight: 500;
+            font-size: 14px;
+            color: #555F69;
+            margin: 0 0 4px 0;
+        }
+        p {
+            margin: 0 0 13px 0;
+            color: #585c69;
+            line-height: 1.2;
+        }
+        ul, ol {
+            margin: 0;
+            padding-left: 24px;
+            li {
+                font-size: 15px;
+                line-height: 1.55;
+            }
+        }
+        
+        .reviews {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+            div {
+                padding-right: 15px;
+            }
+        }
+        .lists {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 28px;
+            div {
+                span {
+                    background-color: #DBDBD9;
+                    border-radius: 3px;
+                }
+            }
+        }
+        .table-wrap {
+            width: 100%;
+            max-width: 760px;
+            margin: 0 auto;
+            overflow: auto;
+        }
+        .table1 {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            border: none;
+            width: 100%;
+            min-width: 690px;
+            th, td {
+                padding: 10px 12px 9px 15px;
+                border: 1px solid #D5D7D6;
+            }
+            th:first-child {
+                padding: 10px 10px 8px 18px;
+            }
+            td:first-child {
+                padding: 10px 10px 8px 18px;
+            }
+            th {
+                font-weight: bold;
+                font-size: 12px;
+                color: #ffffff;
+                background: #924652;
+                &:first-child {
+                    border-top-left-radius: 10px;
+                }
+                &:last-child {
+                    border-top-right-radius: 10px;
+                }
+            }
+            td {
+                font-size: 14px;
+                background: #1D232C;
+                color: #A2A6B5;
+            }
+        }
+    }
+}
